@@ -4,7 +4,7 @@ export default function Linguagens(props) {
     return (
         <div className={styles.corpo}>
             <div className={styles.esquerda}>
-                <h2>{props.titulo}</h2>
+                <h2  key={props.titulo}>{props.titulo}</h2>
                 <div className={styles.bloco}>
                     <div>
 
