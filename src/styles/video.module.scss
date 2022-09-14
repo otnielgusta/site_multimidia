@@ -1,0 +1,46 @@
+@import './cores';
+
+.corpo {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    column-count: 2;
+
+    .esquerda {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 100px 200px 0 100px;
+
+        h2 {
+            font-size: 76px;
+            font-weight: 600;
+            margin-bottom: 50px;
+        }
+
+        h3 {
+            font-size: 37px;
+            font-weight: 300;
+            margin-bottom: 30px;
+
+        }
+
+        h4 {
+            font-size: 27;
+            font-weight: 300;
+            margin-bottom: 5px;
+
+        }
+    }
+
+    .direita {
+        padding: 30px;
+        height: 100%;
+        background-color: #4d1354;
+        display: flex;
+        justify-content: center;
+    }
+
+}

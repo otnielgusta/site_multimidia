@@ -1,0 +1,46 @@
+@import './cores';
+
+.corpo {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    column-count: 2;
+
+    .esquerda {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding: 0 0 100px 100px;
+        .titulo_maior {
+            font-size: 100px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .titulo_menor {
+            font-size: 57px;
+            font-weight: 600;
+            margin-bottom: 30px;
+
+        }
+        h3 {
+            font-size: 48px;
+            font-weight: 300;
+        }
+
+        h4 {
+            font-size: 24;
+            font-weight: 300;
+        }
+    }
+
+    .direita{
+        height: 100%;
+        background: url('../../public/decoracao.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70%;
+    }
+
+}
