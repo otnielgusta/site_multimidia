@@ -11,7 +11,7 @@ export default function Linguagens(props) {
                         {
                             props.itens.map((item) => {
                                 return (
-                                    <h4>* {item}</h4>
+                                    <h4  key={item}>* {item}</h4>
                                 )
                             })
                         }
