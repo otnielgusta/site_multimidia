@@ -13,7 +13,7 @@ export default function DuasColunas(props){
                                 <h3>{item.titulo}</h3>
                                 {
                                     item.descricao.map((desc)=>{
-                                       return item.descricao.length > 1 ? <h4>* {desc}</h4> : <h4> {desc}</h4>
+                                       return item.descricao.length > 1 ? <h4 key={desc}>* {desc}</h4> : <h4> {desc}</h4>
                                     })
                                 }  
                             </div>)

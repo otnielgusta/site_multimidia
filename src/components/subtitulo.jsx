@@ -8,7 +8,7 @@ export default function Subtitulo(props){
                 <h3>{props.subtitulo}</h3>
                 {
                     props.itens.map((item)=>{
-                        return <h4>* {item}</h4>
+                        return <h4 key={item}>* {item}</h4>
                     })
                 }
                 {
