@@ -9,7 +9,7 @@ export default function DuasColunas(props){
                     {
                         props.itens.map((item)=>{
                             return (
-                            <div className={styles.itens}>
+                            <div key={props.itens.indexOf(item)} className={styles.itens}>
                                 <h3 key={item.titulo}>{item.titulo}</h3>
                                 {
                                     item.descricao.map((desc)=>{
