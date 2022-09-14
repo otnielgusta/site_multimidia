@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import styles from '../styles/header.module.scss'
 
 export default function Header() {
     const router = useRouter();

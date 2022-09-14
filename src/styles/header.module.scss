@@ -1,0 +1,45 @@
+.header {
+    padding: 2rem 10rem;
+    color: white;
+
+    .containerHeader {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+    }
+
+    h1 {
+        font-size: 28px;
+        font-weight: 600;
+        margin: 0px;
+    }
+
+    .botoes {
+        display: flex;
+        gap: 30px;
+
+        button {
+            width:200px;
+            height: 50px;        
+            cursor: pointer;
+            transition: ease-in-out, .35s ease-in-out;
+            background-color: $backgroundGradient1;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            margin-top: 15px;
+            margin-bottom: 13px;
+            padding: 10px;
+            border-radius: 5px;
+            border: solid 1px;
+        }
+
+        button:hover {
+            transition: 0.7s;
+            background-color: white;
+            color: black;
+        }
+    }
+
+
+}
