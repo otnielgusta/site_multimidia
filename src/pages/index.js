@@ -7,10 +7,12 @@ import Subtitulo from '../components/subtitulo'
 import DuasColunas from '../components/duas_colunas'
 import Video from '../components/video'
 import Linguagens from '../components/linguagens'
+import Header from '../../components/header'
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Header />
       <Titulo
         titulo_menor={false}
         titulo="Programação Mobile Android"

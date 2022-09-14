@@ -2,11 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import Subtitulo from '../../components/subtitulo'
+import Header from '../../components/header'
 
 
 export default function Introducao() {
   return (
     <div className={styles.container}>
+        <Header />
       <Subtitulo
         titulo="Introdução"
         subtitulo="O que é Android?"
