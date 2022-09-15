@@ -1,5 +1,5 @@
 
-import styles from '../../styles/Subtitulo.module.scss'
+import styles from '../../styles/subtitulo.module.scss'
 import Subtitulo from '../../components/subtitulo'
 import Header from '../../components/header'
 import Spacer from '../../components/spacer'

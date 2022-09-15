@@ -1,6 +1,5 @@
 
-import styles from '../../styles/Subtitulo.module.scss'
-import Subtitulo from '../../components/subtitulo'
+import styles from '../../styles/duas_colunas.module.scss'
 import Header from '../../components/header'
 import Spacer from '../../components/spacer'
 import Titulo from '../../components/titulo'
