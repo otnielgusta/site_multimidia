@@ -34,7 +34,7 @@ export default function Header() {
                         router.push({
                             pathname: '/video'
                         })
-                    }}>ideo</button>
+                    }}>Video</button>
 
                 </div>
 

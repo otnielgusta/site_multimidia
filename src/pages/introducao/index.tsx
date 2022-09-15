@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.scss'
+
+import styles from '../../styles/Subtitulo.module.scss'
 import Subtitulo from '../../components/subtitulo'
 import Header from '../../components/header'
+import Spacer from '../../components/spacer'
 
 
 export default function Introducao() {
