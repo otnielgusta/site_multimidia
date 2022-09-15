@@ -20,8 +20,8 @@ export default function Linguagens(props) {
 
                         <Image
                             src={props.imagem}
-                            width={1000}
-                            height={400}
+                            width={600}
+                            height={200}
                             layout='fixed'
 
                         />
